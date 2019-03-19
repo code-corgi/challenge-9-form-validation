@@ -1,0 +1,33 @@
+main.mdl-layout__content {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+main.mdl-layout__content form {
+    width: 1024px;
+    max-width: 100%;
+}
+
+main.mdl-layout__content form header {
+    padding: 2em 0 1em;
+}
+
+form .mdl-textfield__label {
+    color: #717171;
+}
+
+form .mdl-textfield {
+    display: block;
+}
+
+form .submit-status p {
+    display: none;
+}
+
+form .submit-status .errors {
+    color: red;
+}
+
+form .submit-status .success {
+    color: green;
+}
